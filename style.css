@@ -1,0 +1,15 @@
+body {
+	font-size: 1.3em;
+}
+ul {
+	background-color: rgb(255, 196, 156);
+	margin: 0;
+	padding: 1em;
+}
+
+ul:hover:nth-child(odd) {
+	background: rgb(183, 255, 197);
+}
+ul:hover:nth-child(even) {
+	background: rgb(237, 255, 183);
+}
